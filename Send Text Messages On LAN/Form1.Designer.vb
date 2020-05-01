@@ -42,6 +42,7 @@ Partial Class Form1
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -55,10 +56,10 @@ Partial Class Form1
         Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.RosyBrown
-        Me.Panel1.Location = New System.Drawing.Point(0, 28)
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(4, 399)
+        Me.Panel1.Size = New System.Drawing.Size(4, 458)
         Me.Panel1.TabIndex = 1
         '
         'Panel2
@@ -66,17 +67,17 @@ Partial Class Form1
         Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel2.BackColor = System.Drawing.Color.RosyBrown
-        Me.Panel2.Location = New System.Drawing.Point(677, 27)
+        Me.Panel2.Location = New System.Drawing.Point(677, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(4, 402)
+        Me.Panel2.Size = New System.Drawing.Size(4, 458)
         Me.Panel2.TabIndex = 2
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.RosyBrown
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 425)
+        Me.Panel3.Location = New System.Drawing.Point(0, 454)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(681, 4)
@@ -86,7 +87,7 @@ Partial Class Form1
         '
         Me.GroupBox1.Controls.Add(Me.ListBox1)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(16, 32)
+        Me.GroupBox1.Location = New System.Drawing.Point(11, 43)
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -112,7 +113,7 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.Button1)
         Me.GroupBox2.Controls.Add(Me.TextBox1)
         Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(16, 299)
+        Me.GroupBox2.Location = New System.Drawing.Point(11, 310)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -144,7 +145,7 @@ Partial Class Form1
         '
         Me.GroupBox3.Controls.Add(Me.Button2)
         Me.GroupBox3.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(300, 299)
+        Me.GroupBox3.Location = New System.Drawing.Point(295, 310)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -168,7 +169,7 @@ Partial Class Form1
         '
         Me.GroupBox4.Controls.Add(Me.TextBox2)
         Me.GroupBox4.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.Location = New System.Drawing.Point(300, 32)
+        Me.GroupBox4.Location = New System.Drawing.Point(295, 43)
         Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -190,7 +191,7 @@ Partial Class Form1
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.Send_Text_Messages_On_LAN.My.Resources.Resources.Close
-        Me.PictureBox1.Location = New System.Drawing.Point(653, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(647, 15)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(21, 20)
@@ -204,17 +205,17 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Location = New System.Drawing.Point(11, 8)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(684, 28)
+        Me.Label1.Size = New System.Drawing.Size(666, 28)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "LAN Messenger"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(593, 4)
+        Me.Button3.Location = New System.Drawing.Point(562, 12)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(53, 28)
         Me.Button3.TabIndex = 10
@@ -241,7 +242,7 @@ Partial Class Form1
         '
         Me.GroupBox5.Controls.Add(Me.Button4)
         Me.GroupBox5.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(300, 361)
+        Me.GroupBox5.Location = New System.Drawing.Point(295, 372)
         Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
@@ -261,11 +262,23 @@ Partial Class Form1
         Me.Button4.Text = "Delete System Record"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Panel4
+        '
+        Me.Panel4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel4.BackColor = System.Drawing.Color.RosyBrown
+        Me.Panel4.Location = New System.Drawing.Point(4, 0)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(681, 4)
+        Me.Panel4.TabIndex = 3
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(681, 429)
+        Me.ClientSize = New System.Drawing.Size(681, 458)
+        Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.PictureBox1)
@@ -280,6 +293,7 @@ Partial Class Form1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
@@ -312,4 +326,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox5 As GroupBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents Panel4 As Panel
 End Class

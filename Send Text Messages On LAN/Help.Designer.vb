@@ -39,9 +39,9 @@ Partial Class Help
         Me.Panel1.BackColor = System.Drawing.Color.RosyBrown
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 28)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(4, 469)
+        Me.Panel1.Size = New System.Drawing.Size(4, 275)
         Me.Panel1.TabIndex = 2
         '
         'Panel2
@@ -49,23 +49,24 @@ Partial Class Help
         Me.Panel2.BackColor = System.Drawing.Color.RosyBrown
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Right
         Me.Panel2.Location = New System.Drawing.Point(531, 28)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(4, 469)
+        Me.Panel2.Size = New System.Drawing.Size(4, 275)
         Me.Panel2.TabIndex = 3
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.RosyBrown
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(4, 493)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel3.Location = New System.Drawing.Point(4, 299)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(527, 4)
         Me.Panel3.TabIndex = 4
         '
         'Label1
         '
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
@@ -81,10 +82,10 @@ Partial Class Help
         '
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Brown
-        Me.Label2.Location = New System.Drawing.Point(16, 42)
+        Me.Label2.Location = New System.Drawing.Point(12, 64)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(503, 196)
+        Me.Label2.Size = New System.Drawing.Size(503, 91)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = resources.GetString("Label2.Text")
         '
@@ -92,19 +93,19 @@ Partial Class Help
         '
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Brown
-        Me.Label3.Location = New System.Drawing.Point(16, 457)
+        Me.Label3.Location = New System.Drawing.Point(12, 254)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(503, 22)
         Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Created By Akhil S Kumar"
+        Me.Label3.Text = "Created By Akhil S Kumar on VB"
         '
         'PictureBox1
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.Send_Text_Messages_On_LAN.My.Resources.Resources.Close
         Me.PictureBox1.Location = New System.Drawing.Point(508, 4)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(21, 20)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -115,20 +116,19 @@ Partial Class Help
         '
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Brown
-        Me.Label9.Location = New System.Drawing.Point(16, 238)
+        Me.Label9.Location = New System.Drawing.Point(12, 167)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(503, 70)
         Me.Label9.TabIndex = 13
-        Me.Label9.Text = "Hint: For Starting Messenger Service goto Control Panel- Administrative Tools- Se" &
-    "rvices and Search for Messenger Service Double Click on that and Select Automati" &
-    "c from Startup Type and Click on Start"
+        Me.Label9.Text = "Important: Messenger service has to be started automatically for new Operating Sy" &
+    "stems. To do this, go to Services.msc and enable Messenger service" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Help
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(535, 497)
+        Me.ClientSize = New System.Drawing.Size(535, 303)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label3)
@@ -138,12 +138,12 @@ Partial Class Help
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Help"
         Me.ShowInTaskbar = False
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Help"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
