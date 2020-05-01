@@ -23,7 +23,13 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        ListBox1.Items.Add(TextBox1.Text)
+        If TextBox1.Text.Trim.Length = 0 Then
+            MessageBox.Show("System Name Missing")
+        ElseIf TextBox3.Text.Trim.Length = 0 Then
+            MessageBox.Show("IP Address Missing")
+        Else
+            ListBox1.Items.Add(TextBox1.Text)
+        End If
     End Sub
 
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
@@ -50,5 +56,15 @@ Public Class Form1
 
     Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         Help.ShowDialog()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        If ListBox1.Items.Count = 0 Then
+            MessageBox.Show("No System to delete")
+        ElseIf ListBox1.SelectedItem = Nothing Then
+            MessageBox.Show("No Systems selected")
+        Else
+            ListBox1.Items.Remove(ListBox1.SelectedItem)
+        End If
     End Sub
 End Class
