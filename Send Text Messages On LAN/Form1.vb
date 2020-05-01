@@ -48,7 +48,7 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
+    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         Help.ShowDialog()
     End Sub
 End Class

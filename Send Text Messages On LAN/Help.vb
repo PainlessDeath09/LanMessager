@@ -32,23 +32,23 @@ Public Class Help
 
     End Sub
 
-    Private Sub Label5_Click(sender As Object, e As EventArgs) 
+    Private Sub Label5_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label4_Click(sender As Object, e As EventArgs) 
+    Private Sub Label4_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) 
+    Private Sub Label6_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label7_Click(sender As Object, e As EventArgs) 
+    Private Sub Label7_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label8_Click(sender As Object, e As EventArgs) 
+    Private Sub Label8_Click(sender As Object, e As EventArgs)
 
     End Sub
 
