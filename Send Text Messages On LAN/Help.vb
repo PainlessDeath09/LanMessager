@@ -27,4 +27,36 @@ Public Class Help
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         Me.Close()
     End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+
+    End Sub
 End Class
